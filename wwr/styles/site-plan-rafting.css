@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&family=Roboto&display=swap'); 
 :root {
-  --primary-color: #002642;
-  --secondary-color: #f6aa1c;
-  --accent1-color: #23001e;
-  --accent2-color: #53ff45;
+  --primary-color: #70C3FF;
+  --secondary-color: #F6AA1C;
+  --accent1-color: #23001E;
+  --accent2-color: #53FF45;
 --heading-font: 'Roboto', serif;
 --paragraph-font: 'Poppins', serif;
 --nav-background-color: #881600;
 --nav-link-color: #23001e;
---nav-hover-link-color: #53ff45;
+--nav-hover-link-color: #53FF45;
 --nav-hover-background-color: #002642;
 }
 body {
