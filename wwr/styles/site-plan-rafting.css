@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=times-new-roman&display=swap') ; 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&family=Roboto&display=swap') ; 
 :root {
   --primary-color: #002642;
   --secondary-color: #f6aa1c;
   --accent1-color: #23001e;
   --accent2-color: #53ff45;
---heading-font: 'Times New Roman', serif;
---paragraph-font: 'Helvetica', serif;
+--heading-font: 'Roboto', serif;
+--paragraph-font: 'Poppins', serif;
 --nav-background-color: #881600;
 --nav-link-color: #23001e;
 --nav-hover-link-color: #53ff45;
