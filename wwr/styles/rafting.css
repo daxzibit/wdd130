@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #70C3FF;
+    --secondary-color: #F6AA1C;
+    --accent1-color: #23001E;
+    --accent2-color: #53FF45;
+  --heading-font: 'Roboto', serif;
+  --paragraph-font: 'Poppins', serif;
+  --nav-background-color: #881600;
+  --nav-link-color: #23001e;
+  --nav-hover-link-color: #53FF45;
+  --nav-hover-background-color: #002642;
+}
+h1, h2, p {
+    font-family: var(--heading-font);
+color: var(--primary-color);
+}
+nav {
+    text-decoration: none;
+}
+* {
+    max-width: 350px;
+}
+.hero {
+    position: absolute;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1, article {
+    position: absolute;
+}
+article img {
+    float: right;
+}
