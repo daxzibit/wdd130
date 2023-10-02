@@ -18,6 +18,7 @@ color: var(--primary-color);
 }
 nav {
     text-decoration: none;
+    display: flex;
 }
 * {
     max-width: 350px;
@@ -27,7 +28,7 @@ nav {
 }
 .hero img {
     display: block;
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 h1, article {
@@ -35,4 +36,17 @@ h1, article {
 }
 article img {
     float: right;
+    width: 64px;
+
+}
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+section.h2 {
+    display: flex;
 }
