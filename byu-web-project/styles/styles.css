@@ -67,6 +67,9 @@ aside h2 {
     top: 47px;
     left: 150px;
 } 
+body {
+    display: block;
+}
 /* .flexbox-container {
     display: flex;
     background-color: yellow;
