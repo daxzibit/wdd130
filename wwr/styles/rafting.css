@@ -41,7 +41,7 @@ div h1 {
     display: inline-flex;
 }
 article {
-display: absolute;
+display: flex;
 }
 div article img {
     float: right;
