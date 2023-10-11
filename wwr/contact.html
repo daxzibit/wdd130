@@ -6,7 +6,7 @@
     <meta name="description" content="Emmanuel's Contact page">
     <meta name="author" content="Emmanuel Ezechukwu">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>WWR Contact Us</title>
+    <title>WWR Contact Us  | WhiteWater Rafting</title>
 </head>
 <body>
     <header> <img src="images/logo.jpg" alt="company logo"> 
@@ -28,6 +28,28 @@
         <img src="images/employee.avif" alt="happy employee">Happy Employee</article>
         <img src="images/employee2.avif" alt="happy employee">Happy Employee</article>
         <img src="images/employee3.avif" alt="happy employee">Happy Employee</article>
+       <form>
+        <fieldset>
+            <legend>User Information</legend>
+            <div class="form-item column2"> 
+                <label for="fullname">Full Name:</label>
+                <Input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2"> <label for="email">Email</label> 
+                <input type="email" id="useremail" name="useremail">
+            </div>
+            <label>Purpose of Message</label>
+            <label>
+                <input type="radio" name="Purpose" value="General Inquiry">General Inquiry</label>
+                <input type="radio" name="Purpose" value="Reservation Question">Reservation Question</label>
+                <input type="radio" name="Purpose" value="Website Suggestion">Website Suggestion</label>
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" rows="4"></textarea>
+            <label><input type="checkbox" name="subscribe" value="yes">Please subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="subscribe">
+        </fieldset>
+        <button type="submit">submit</button>
+       </form> 
     </main>
     <footer>
         <p>©2023     WhiteWater Rafting  Emmanuel     Ezechukwu</p>
